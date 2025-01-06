@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #4caf50;
+  --secondary-color: #333;
+  --text-color: #fff;
+  --background-color: #f4f4f4;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--secondary-color);
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
